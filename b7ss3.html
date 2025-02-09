@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="username">Ho va Ten</label>
+        <input required id="username" type="text" />
+      </div>
+      <div>
+        <label for="EMAIL">Email</label>
+        <input id="EMAIL" type="text">
+      </div>
+      <div>
+        <label for="datebirth">Ngay sinh</label>
+        <input id="datebirth" type="date" />
+      </div>
+      <div>
+        <label for="gender">Gioi tinh</label>
+        <input name="gender" id="male" type="radio"> <label for="male">Nam</label>
+        <input name="gender" id="female" type="radio"> <label for="female">Nu</label>
+      </div>
+      <div>
+        <label for="sdt">Số điện thoại</label>
+        <input id="sdt" type="number">
+      </div>
+      <div>
+        <label for="cn">Chuyên ngành</label>
+        <input id="cn" type="text">
+      </div>
+      <div>
+        <label for="year">Năm nhập học</label>
+        <input id="year" type="number">
+      </div>
+      <div>
+        <label for="gpa">Điểm GPA</label>
+        <input type="number" name="gpa" id="gpa" max="4" min="0">
+      </div>
+      <div>
+        <label for="dc">Địa chỉ</label>
+        <textarea name="dc" id="dc"></textarea>
+      </div>
+      <div>
+        <label for="class">Lớp học</label>
+        <select name="class" id="class">
+            <option value="lop-1">Lớp 1</option>
+            <option value="lop-2">Lớp 2</option>
+            <option value="lop-3">Lớp 3</option>
+        </select>
+      </div>
+      <div>
+        <label for="real">Ngày đăng ký học</label>
+        <input id="real" name="real" type="datetime-local">
+      </div>
+        <input type="submit">
+      </div>
+    </form>
+  </body>
+</html>
